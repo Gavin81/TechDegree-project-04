@@ -1,8 +1,25 @@
 
 $color:;
-$font:;
-$font-family:;
+$background-color:;
 
+
+$font-family:;
+$font-size:;
+$font-weight:;
+$font-style:;
+
+$margin:;
+$margin-top:;
+$margin-right:;
+$margin-bottom:;
+$margin-left;:
+
+$padding:;
+
+$width:;
+$height:;
+
+$border:;
 
 /* ============================================= */
 /*              Base styles                      */
