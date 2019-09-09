@@ -16,10 +16,10 @@ $background-color:;
 $background-color:;
 
 
-row
+
 $display: flex;
-$flex-direction: ;
-$padding:;
+$flex-direction: column;
+$padding: 1em 10px;
 
 
 /* Forms */
