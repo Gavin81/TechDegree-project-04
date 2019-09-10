@@ -63,8 +63,8 @@ $@media (min-width: 768px) {
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
-  color: #777;
+  /*font-family: 'Lato', sans-serif;
+  color: #777;*/
   box-sizing: border-box;
 }
 
@@ -72,9 +72,11 @@ p {
   line-height: 1.45em;
 }
 
+/*
 a {
   text-decoration: none;
 }
+*/
 
 
 /* ============================================= */
@@ -83,24 +85,28 @@ a {
 
 
 .headline-primary {
-  color: #58e1c1;
+  /*color: #58e1c1;*/
   margin-left: 10px;
 }
 
 .headline-secondary {
-  font-weight: 300;
+  /*font-weight: 300;
   color: #777;
+  */
 }
 
 .link {
-  color: #51ddfc;
+  /*color: #51ddfc;
   font-weight: 700;
+  */
 }
 
 .blockquote {
+  /*
   font-size: 1.5em;
   font-weight: 300;
   font-style: italic;
+  */
   margin-left: 20px;
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
@@ -117,9 +123,10 @@ a {
 }
 
 .row {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   padding: 1em 10px;
+  */
 }
 
 [class^=col] {
@@ -130,6 +137,7 @@ a {
   border-radius: 5px;
 }
 
+/*
 .theme.col-1 {
   background-color: #927bc1;
 }
@@ -177,6 +185,7 @@ a {
 .theme.col-12 {
   background-color: #80e8d1;
 }
+*/
 
 .card {
   flex-basis: 100%;
@@ -195,7 +204,7 @@ a {
 }
 
 .nav-link {
-  text-align: center;
+  /*text-align: center;*/
   border-radius: 5px;
   padding: 10px 0;
   display: block;
@@ -206,7 +215,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #fff;
+  /*color: #fff;*/
   background-color: #58e1c1;
 }
 
@@ -218,10 +227,10 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  /*color: #fff;*/
   border: none;
   padding: 10px 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border-radius: 5px;
 }
 
@@ -321,21 +330,28 @@ a {
   margin-right: auto;
 }
 
+/*
 .row {
   flex-direction: row;
 }
+/*
 
+/*
 [class^=col] {
   display: flex;
   justify-content: center;
   margin-top: 0;
   align-items: center;
 }
+*/
 
+/*
 [class^=col] + [class^=col] {
   margin-left: 10px;
 }
+*/
 
+/*
 .col-1 {
   flex-basis: 8.33%;
 }
@@ -383,6 +399,7 @@ a {
 .col-12 {
   flex-basis: 100%;
 }
+*/
 
 .nav {
   flex-direction: row;
