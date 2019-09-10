@@ -5,6 +5,11 @@
   $color: #777;
 }
 
+a {
+  $text-decoration: none;
+}
+
+
 /* TYPOGRAPHY */
 .headline-primary {
   $color: #58e1c1;
@@ -13,8 +18,26 @@
   $font-weight: 300;
   $color: #777;
 }
+.link {
+  $color: #51ddfc;
+  $font-weight: 700;
+}
 
+.blockquote {
+  $font-size: 1.5em;
+  $font-weight: 300;
+  $font-style: italic;
+}
 
+/* GRID SYSTEM */
+/*
+NOTHING FOR TYPOGRAPHY IN THE GRID SYSTEM
+*/
+
+/* NAVIGATION */
+.nav-link {
+  $text-align: center;
+}
 
 $font-size:;
 $font-weight:;
