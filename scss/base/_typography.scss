@@ -38,7 +38,30 @@ NOTHING FOR TYPOGRAPHY IN THE GRID SYSTEM
 .nav-link {
   $text-align: center;
 }
+.nav-link:hover {
+  $color: #fff;
+}
 
-$font-size:;
-$font-weight:;
-$font-style:;
+
+/* BUTTONS */
+.btn {
+  $color: #fff;
+  $text-transform: uppercase;
+}
+
+/* FORMS */
+/*
+  NOTHING FOR FORMS
+*/
+
+
+/* IMAGES */
+/*
+  NOTHING FOR IMAGES
+*/
+
+
+/* MEDIA QUERIES */
+/*
+  NOTHING FOR MEDIA QUERIES
+*/
