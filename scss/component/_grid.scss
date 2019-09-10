@@ -1,6 +1,19 @@
 
 /* Grid, Col or Row */
 
+
+/* BASE STYLES */
+/*
+  NOTHING FOR BASE STYLES
+*/
+
+
+/* TYPOGRAPHY */
+/*
+  NOTHING FOR TYPOGRAPHY
+*/
+
+
 /* GRID SYSTEM */
 .row {
   $display: flex;
@@ -92,6 +105,7 @@
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
+
 .row {
   $flex-direction: row;
 }

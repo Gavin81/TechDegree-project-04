@@ -130,11 +130,12 @@ a {
 }
 
 [class^=col] {
-  margin-top: 10px;
+  /*margin-top: 10px;
   flex-basis: 100%;
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
+  */
 }
 
 /*
