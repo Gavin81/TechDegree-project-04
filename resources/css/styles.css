@@ -152,9 +152,9 @@
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
-  color: #777;
-  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; /* TYPOGRAPHY PARTIAL */
+  color: #777;                     /* TYPOGRAPHY PARTIAL */
+  box-sizing: border-box;          /* ? */
 }
 
 p {
