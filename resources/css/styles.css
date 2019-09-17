@@ -368,7 +368,7 @@ a {
 /*              Images                           */
 /* ============================================= */
 
-.img-avatar {
+.img-avatar {         /* COMPONENTS PARTIAL THEN CREATE AN IMAGES.SCSS SHEET */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -377,7 +377,7 @@ a {
   max-height: 100%;
 }
 
-.img-frame {
+.img-frame {      /* COMPONENTS, IMAGES PARTIAL */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -387,7 +387,7 @@ a {
   border: 1px solid #ccc;
 }
 
-.img-logo {
+.img-logo {        /* COMPONENTS, IMAGES PARTIAL */
   display: block;
   margin-left: auto;
   margin-right: auto;
