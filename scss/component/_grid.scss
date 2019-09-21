@@ -15,6 +15,11 @@
 
 
 /* GRID SYSTEM */
+
+.container {
+  $padding: 0 10px;                  /* ? */
+}
+
 .row {
   $display: flex;
   $flex-direction: column;
