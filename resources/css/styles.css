@@ -269,7 +269,7 @@ a {
 }
 
 
-.card {
+.card {     /* COMPONENT PARTIAL */
   flex-basis: 100%;
 }
 
