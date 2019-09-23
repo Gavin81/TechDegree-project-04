@@ -14,7 +14,9 @@ p {
   $line-height: 1.45em;
 }
 
-
+.container{
+  $background-color: white;
+}
 
 /* TYPOGRAPHY */
 .headline-primary {
@@ -37,7 +39,7 @@ p {
   $margin-left: 20px;                /* ? */
   $padding-left: 20px;               /* ? */
   $border-left: 8px solid #58e1c1;   /* ? */
-  $border-radius: 5px; 
+  $border-radius: 5px;
 }
 
 
