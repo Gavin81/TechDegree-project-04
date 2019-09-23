@@ -202,7 +202,8 @@ a {
 /* ============================================= */
 
 .container {
-  padding: 0 10px;                  /* ? */
+  padding: 0 10px;
+  background-color: white;                 /* ? */
 }
 
 .row {     /* GRID PARTIAL */
