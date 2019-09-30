@@ -1,4 +1,12 @@
 
+/* FORM SASS VARIABLES */
+
+/*
+$input-width: 94%;
+$hidden-width: 1px;
+$hidden-height: 1px;
+*/
+
 
 .form {  /* FORMS PARTIAL */
   flex-basis: 100%;
@@ -6,7 +14,7 @@
 
 .input{ /* FORMS PARTIAL */
   display: block;
-  width: 94%;
+  width: $input-width;/* 94% */
   margin: 10px auto 0;
   border: none;
   padding: 10px;
@@ -17,7 +25,7 @@
   position:absolute;
   left:-10000px;
   top:auto;
-  width:1px;
-  height:1px;
+  width: $hidden-width;/* 1px */
+  height: $hidden-height;/* 1px */
   overflow:hidden;
 }

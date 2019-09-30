@@ -1,6 +1,7 @@
 
 /* SASS VARIABLES AND VALUES */
 
+/*
 $color: #fff;
 
 $default-background-color: #51ddfc;
@@ -13,34 +14,35 @@ $warning-background-color: #fd7856;
 $text-transform: uppercase;
 
 $btn-width: 100%;
+*/
 
 
 .btn {    /* BUTTONS PARTIAL */
   margin-top: 15px;
-  width: 100%;
-  color: #fff;
+  width: $btn-width;
+  color: $color;
   border: none;
   padding: 10px 0;
-  text-transform: uppercase;
+  text-transform: $text-transform;
   border-radius: 5px;
 }
 
 .default { /* BUTTONS PARTIAL */
-  background-color: #51ddfc;
+  background-color: $default-background-color;/* #51ddfc */
 }
 
 .error { /* BUTTONS PARTIAL */
-  background-color: #e4757a;
+  background-color: $error-background-color;/* #e4757a */
 }
 
 .info {  /* BUTTONS PARTIAL */
-  background-color: #927bc1;
+  background-color: $info-background-color;/* #927bc1 */
 }
 
 .success {  /* BUTTONS PARTIAL */
-  background-color: #63cc82;
+  background-color: $success-background-color;/* #63cc82 */
 }
 
 .warning {  /* BUTTONS PARTIAL */
-  background-color: #fd7856;
+  background-color: $warning-background-color;/* #fd7856 */
 }
