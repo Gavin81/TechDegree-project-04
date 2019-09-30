@@ -2,14 +2,18 @@
 /* FORM SASS VARIABLES */
 
 /*
+
+$flex-basis: 100%;
+
 $input-width: 94%;
 $hidden-width: 1px;
 $hidden-height: 1px;
+
 */
 
 
 .form {  /* FORMS PARTIAL */
-  flex-basis: 100%;
+  flex-basis: $flex-basis;/* 100% */
 }
 
 .input{ /* FORMS PARTIAL */
