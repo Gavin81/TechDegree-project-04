@@ -1,20 +1,30 @@
 
 
+/* IMAGES VARIABLES */
+$display: block;
+$margin-left: auto;
+$margin-right: auto;
+
+$margin-top: 10px;
+$max-width: 100%;
+
+
+
 .img-avatar {         /* COMPONENTS PARTIAL THEN CREATE AN IMAGES.SCSS SHEET */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
+  display: $display;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+  margin-top: $margin-top;
+  max-width: $max-width;
   max-height: 100%;
 }
 
 .img-frame {      /* COMPONENTS, IMAGES PARTIAL */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
+  display: $display;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+  margin-top: $margin-top;
+  max-width: $max-width;
   padding: 13px;
   border: 1px solid #ccc;
 }
