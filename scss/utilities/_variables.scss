@@ -78,15 +78,9 @@ $col11: 91.67%;
 $col12: 100%;
 
 @media (min-width: 768px){
-  .col-1:{
-  flex-basis: $col1;
- }
-  .col-2:{
-  flex-basis: $col2;
-  }
-  .col-3:{
-  flex-basis: $col3;
-  }
+  .col-1: {flex-basis: $col1;}
+  .col-2: {flex-basis: $col2;}
+  .col-3: {flex-basis: $col3;}
   .col-4: {flex-basis: $col4;)
   .col-5: {flex-basis: $col5;}
   .col-6: {flex-basis: $col6;}
