@@ -1,4 +1,21 @@
 
+
+/* NAVIGATION VARIABLES */
+
+/* .NAV class */
+$flex-basis: 100%;
+$display-flex: flex;
+
+/* .NAV-LINK class */
+$text-align: center;
+$display-block: block;
+$width: 100%;
+
+/* .NAV-LINK:HOVER class */
+$nav-link-hover-color: #fff;
+$nav-link-hover-background-color: #58e1c1;
+
+
 .nav {      /* NAVIGATION PARTIAL */
   padding-left: 0;
   flex-basis: 100%;
