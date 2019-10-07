@@ -46,3 +46,13 @@ $btn-width: 100%;
 .warning {  /* BUTTONS PARTIAL */
   background-color: $warning-background-color;/* #fd7856 */
 }
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
