@@ -47,6 +47,8 @@ $btn-width: 100%;
   background-color: $warning-background-color;/* #fd7856 */
 }
 
+
+
 @media (min-width: 768px) {
   .btn {
     padding: 10px 30px;
@@ -55,4 +57,12 @@ $btn-width: 100%;
   .btn + .btn {
     margin-left: 10px;
   }
+}
+
+
+
+@media (min-width: 1024px) {
+  
+ 
+  
 }
