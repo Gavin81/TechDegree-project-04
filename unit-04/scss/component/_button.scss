@@ -18,6 +18,7 @@ $btn-width: 100%;
 
 
 .btn {    /* BUTTONS PARTIAL */
+  border: none;
   margin-top: 15px;
   width: $btn-width;
   color: $color;
@@ -25,14 +26,27 @@ $btn-width: 100%;
   text-transform: $text-transform;
   border-radius: 5px;
   &:hover {
-    border: 1px solid red;
+    border: 2px solid turquoise;
+  }
+}
+button {
+  &:hover {
+    background: lighten($color: #e2b6b6, $amount: 10%)
   }
 }
 
 .default { /* BUTTONS PARTIAL */
+  border: none;
   background-color: $default-background-color;/* #51ddfc */
   &:hover {
-    border: 1px solid aqua;
+    border: 2px solid aqua;
+  }
+}
+
+.col-6.theme {
+  background-color: aqua;
+  &:hover {
+    background: lighten(seagreen, $amount: 10%);
   }
 }
 
