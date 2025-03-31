@@ -21,7 +21,6 @@ $btn-width: 100%;
   margin-top: 15px;
   width: $btn-width;
   color: $color;
-  border: none;
   padding: 10px 0;
   text-transform: $text-transform;
   border-radius: 5px;
@@ -32,6 +31,9 @@ $btn-width: 100%;
 
 .default { /* BUTTONS PARTIAL */
   background-color: $default-background-color;/* #51ddfc */
+  &:hover {
+    border: 1px solid aqua;
+  }
 }
 
 .error { /* BUTTONS PARTIAL */
@@ -65,7 +67,5 @@ $btn-width: 100%;
 
 
 @media (min-width: 1024px) {
-  
- 
   
 }
