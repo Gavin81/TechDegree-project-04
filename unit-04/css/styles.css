@@ -75,8 +75,8 @@
 .nav-link {
   /*text-align: center;*/
   transition:
-    $background-color .2s ease-in-out,
-    $color .2s ease-in-out;
+    $background-color: .2s ease-in-out,
+    $color: .2s ease-in-out;
 }
 .nav-link:hover {
   $background-color: #58e1c1;

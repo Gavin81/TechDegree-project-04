@@ -25,6 +25,9 @@ $btn-width: 100%;
   padding: 10px 0;
   text-transform: $text-transform;
   border-radius: 5px;
+  &:hover {
+    border: 1px solid red;
+  }
 }
 
 .default { /* BUTTONS PARTIAL */
