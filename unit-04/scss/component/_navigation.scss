@@ -44,7 +44,8 @@ $nav-link-hover-background-color: #58e1c1;
 }
 
 
-@media (min-width: 768px) {
+// 768px
+@media (min-width: $MQ-Tablet-768) {
   .nav {
     flex-direction: row;
     justify-content: flex-end;

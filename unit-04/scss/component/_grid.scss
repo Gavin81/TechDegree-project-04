@@ -155,7 +155,8 @@ $col12: 100%;
 
 
 /* MEDIA QUERIES */
-@media (min-width: 768px) {
+// 768
+@media (min-width: $MQ-Tablet-768) {
 
   .centered{
     display: block;
